@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #09090A;
+    color: white;
+    /* display: grid;
+    place-items: center; /* sem o display grid place item nao funciona*/ 
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* significa que os elementos terão um espaço entre eles e cada um ficará numa ponta*/
+    padding: 48px;
+
+    position: fixed; /* ao usar o position fixed a tela quebra porque é como se a imagem e o botão subissem uma camada da página, e os demias ficam no fundo */
+    width: 100%; /* para isso não acontecer, precisamos descobrir o tamanho do elemento do header pelo devTolls (ferramenta do desenvolvedor, e usá-la no elemento abaixo (#form-habits) */
+    background-color: #09090A;
+}
+
+
+button {
+    padding: 16px 24px;
+    border-radius: 8px; /*arredonda a borda*/
+    border: 1px solid #8B5CF6;
+    background: transparent;
+    color: white;
+
+    display: flex; /*o display comum é o inline, o flex deixa mais solto*/
+    align-items: center; /*sem o display flex o align não funcionaria, pois nao seria possível mover os elementos*/
+    gap: 24px; /*espaço entre*/
+    
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size:  16px;
+    line-height: 125%;
+}
+
+#form-habits {
+    display: flex;
+    
+    padding: 182px 48px 48px;
+    width: fit-content; /* encaixa o conteudo na largura */
+}
+
+.habits {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+
+.habit {
+
+    width: 64px;
+    height: 64px;
+
+    font-size: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.days {
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.day div {
+    margin-bottom: 8px;
+
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    line-height: 125%;
+
+    color: #A1A1AA;
+
+    text-align: center;
+}
+
+input {
+    appearance: none;
+    -webkit-appearance: none;
+
+
+    width: 64px;
+    height: 64px;
+
+
+    border: 2px solid #27272A; 
+    border-radius: 8px;
+
+    background: #18181b;
+
+}
+
+/*pseudo-selector*/
+input:checked {
+    background:  #8B5CF6;
+    border: 2px solid #a78bfa;
+}
+
+@media (max-width: 570px) { /* esta ferramenta define que até determinado tamanho de tela ela vai se comportar de tal forma, e após isso ele se comportará de outro */
+    button div {
+        display: none;
+    }
+} /* isso é a responsividade */
