@@ -38,7 +38,7 @@ O Habits é um app para ajudar a rastrear os hábitos.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](nlw-setup-liard.vercel.app). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](nlw-setup-git-main-marias-projects-ed92f867.vercel.app). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
