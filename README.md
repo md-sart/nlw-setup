@@ -34,7 +34,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um app para ajudar a rastrear os hábitos.
 
-- [Visite o projeto online] (https://vercel.com/marias-projects-ed92f867/nlw-setup/G8FGgvkmm5xJxdU3WaAK64Ek17oh)
+- [Visite o projeto online] (https://nlw-setup-o1xahpljc-marias-projects-ed92f867.vercel.app)
+
 
 ## 🔖 Layout
 
